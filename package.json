@@ -1,0 +1,17 @@
+{
+  "name": "organization-api",
+  "version": "1.0.0",
+  "description": "Node.js API for Organizations with CRUD, roles, and privileges",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.0.11",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  }
+}
